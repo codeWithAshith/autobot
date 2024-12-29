@@ -1,0 +1,286 @@
+[
+  {
+    "title": "Fact: The Power of Gratitude",
+    "description": "Practicing gratitude can have a profound impact on our well-being.",
+    "tags": [
+      "health",
+      "wellness",
+      "mindfulness"
+    ],
+    "points": [
+      "Focus on what's going right",
+      "Write down 3 things daily",
+      "Share with a friend"
+    ],
+    "voiceOverScript": "Hey there, have you ever stopped to think about what you're grateful for? Practicing gratitude can have a profound impact on our well-being. Start by focusing on what's going right in your life, no matter how small it may seem. Write down three things you're thankful for each day. And finally, share your gratitude with a friend or loved one. Trust me, it's a game-changer!",
+    "uploaded": true,
+    "deleteFlag": true
+  },
+  {
+    "title": "The Power of Self-Care",
+    "description": "Taking care of yourself is not selfish, it's necessary.",
+    "tags": [
+      "self-care",
+      "mindfulness",
+      "wellness"
+    ],
+    "points": [
+      "Take 10 minutes each day to meditate.",
+      "Get 7-8 hours of sleep each night.",
+      "Drink at least 8 glasses of water daily."
+    ],
+    "voiceOverScript": "Taking care of yourself is not selfish, it's necessary. It's easy to get caught up in the hustle and bustle of everyday life, but neglecting your own well-being can have serious consequences. So, make sure to take some time for yourself each day. Whether it's meditating, getting a good night's sleep, or simply taking a few deep breaths, remember that you are worthy of love and care. You are deserving of a life that is filled with joy, peace, and happiness.",
+    "uploaded": true,
+    "deleteFlag": true
+  },
+  {
+    "title": "Fact: Exercising Outdoors Boosts Mood",
+    "description": "Spending time in nature can significantly improve your mental health",
+    "tags": [
+      "health",
+      "wellness",
+      "mindfulness"
+    ],
+    "points": [
+      "Exercise outdoors 3 times a week.",
+      "Breathe in fresh air deeply.",
+      "Notice the trees and flowers."
+    ],
+    "voiceOverScript": "Hey there! Did you know that exercising outdoors can actually boost your mood? It's true! When you spend time in nature, you're breathing in fresh air, getting some exercise, and even noticing the beauty around you. Try it out and see the difference for yourself!",
+    "uploaded": true,
+    "deleteFlag": true
+  },
+  {
+    "title": "The Surprising Benefits of Forgiveness",
+    "description": "Did you know that forgiveness can have a significant impact on your mental and physical health?",
+    "tags": [
+      "forgiveness",
+      "mental health",
+      "physical health"
+    ],
+    "points": [
+      "Forgiving others can reduce stress and anxiety",
+      "Forgiving yourself can boost self-esteem",
+      "Holding onto grudges can lead to chronic pain"
+    ],
+    "voiceOverScript": "Forgiveness is a powerful tool that can have a profound impact on our well-being. By letting go of grudges and negative emotions, we can reduce stress and anxiety, boost our self-esteem, and even alleviate chronic pain. So, the next time you're tempted to hold onto resentment, remember the benefits of forgiveness and take the first step towards healing.",
+    "uploaded": true,
+    "deleteFlag": false
+  },
+  {
+    "title": "Fact: The Power of Kindness",
+    "description": "Kindness is a powerful tool for building strong relationships.",
+    "tags": [
+      "kindness",
+      "relationships",
+      "empathy"
+    ],
+    "points": [
+      "Smiling at strangers boosts happiness",
+      "Helping others reduces stress",
+      "Kind words can heal emotional wounds"
+    ],
+    "voiceOverScript": "Kindness is more than just a feeling, it's a powerful tool for building strong relationships. Did you know that smiling at strangers can boost your happiness? It's true! When we show kindness to others, we reduce our own stress levels. And, let's be honest, kind words can heal emotional wounds. So, spread some kindness today and watch your relationships flourish!",
+    "uploaded": true,
+    "deleteFlag": true
+  },
+  {
+    "title": "Surprising Benefits of Mindful Breathing",
+    "description": "Mindful breathing can boost mood and reduce stress",
+    "tags": [
+      "mindfulness",
+      "wellness",
+      "relaxation"
+    ],
+    "points": [
+      "Increases oxygen flow to the brain",
+      "Reduces cortisol levels",
+      "Improves focus and concentration"
+    ],
+    "voiceOverScript": "Mindful breathing, it's a game-changer. Not only can it boost your mood, but it can also reduce stress and anxiety. Here's how: first, it increases oxygen flow to the brain, giving you a clear and focused mind. Second, it reduces cortisol levels, the stress hormone that can wreak havoc on your body. And third, it improves focus and concentration, helping you stay on track and achieve your goals. So, take a deep breath in, hold it for a second, and breathe out slowly. Repeat this process a few times, and feel the calmness spread throughout your body.",
+    "uploaded": true,
+    "deleteFlag": false
+  },
+  {
+    "title": "The Surprising Link Between Sleep and Happiness",
+    "description": "Did you know that getting enough sleep can significantly improve your mood and overall happiness?",
+    "tags": [
+      "sleep",
+      "happiness",
+      "mindfulness"
+    ],
+    "points": [
+      "Aim for 7-9 hours of sleep each night.",
+      "Establish a relaxing bedtime routine.",
+      "Avoid screens for at least an hour before bed."
+    ],
+    "voiceOverScript": "Getting enough sleep is crucial for our happiness. In fact, research shows that when we get the right amount of sleep, we're more likely to feel calm, focused, and energized. So, make sure to prioritize those z's and you'll be on your way to a happier, healthier you.",
+    "uploaded": true,
+    "deleteFlag": false
+  },
+  {
+    "title": "The Secret to a Happy Relationship",
+    "description": "Practicing active listening can improve your relationships by 50%!",
+    "tags": [
+      "Relationships",
+      "Communication",
+      "Happiness"
+    ],
+    "points": [
+      "Listen without interrupting",
+      "Show genuine interest",
+      "Avoid criticizing"
+    ],
+    "voiceOverScript": "When it comes to building strong relationships, there's one secret that can make all the difference. Are you ready to uncover it? Practicing active listening can improve your relationships by 50%! So, what does it mean to actively listen? It means focusing on the person speaking, without interrupting or planning your response. It means showing genuine interest in what they're saying, and avoiding criticism. By doing so, you'll create a safe space for open communication, and strengthen your bonds with loved ones.",
+    "uploaded": true,
+    "deleteFlag": false
+  },
+  {
+    "title": "Fact: The Benefits of Morning Sunlight",
+    "description": "A morning walk in the sun can boost your mood and energy",
+    "tags": [
+      "health",
+      "wellness",
+      "mindfulness"
+    ],
+    "points": [
+      "Exposure to sunlight triggers serotonin release",
+      "Morning sunlight helps regulate circadian rhythms",
+      "Natural light can improve focus and productivity"
+    ],
+    "voiceOverScript": "Imagine starting your day with a refreshing morning walk in the sun. Not only will you get some exercise, but you'll also get a boost of energy and a mood lift. It's like a natural coffee kick! Exposure to sunlight triggers the release of serotonin, a neurotransmitter that helps regulate your mood. Plus, morning sunlight helps regulate your circadian rhythms, which can improve your sleep quality. And let's not forget, natural light can improve your focus and productivity. So, make it a habit to get outside in the morning and soak up some sunshine. Your body - and mind - will thank you.",
+    "uploaded": false,
+    "deleteFlag": true
+  },
+  {
+    "title": "The Surprising Link Between Exercise and Brain Health",
+    "description": "Regular exercise can increase blood flow to the brain, boosting cognitive function and reducing the risk of dementia.",
+    "tags": [
+      "exercise",
+      "brain health",
+      "cognitive function"
+    ],
+    "points": [
+      "Exercise boosts blood flow to the brain",
+      "Increased blood flow reduces risk of dementia",
+      "Regular exercise improves cognitive function"
+    ],
+    "voiceOverScript": "Hey there! Did you know that regular exercise can actually improve your brain health? That's right, exercise boosts blood flow to the brain, which can reduce the risk of dementia and even improve cognitive function. So, get moving and give your brain a boost!",
+    "uploaded": true,
+    "deleteFlag": false
+  },
+  {
+    "title": "Fact: The Power of Social Connections",
+    "description": "Strong social connections can boost your mood and reduce stress.",
+    "tags": [
+      "health",
+      "wellness",
+      "mindfulness",
+      "relationships"
+    ],
+    "points": [
+      "Spending time with loved ones can increase feelings of happiness.",
+      "Regular social interactions can help reduce symptoms of depression.",
+      "Building strong relationships can improve overall mental health."
+    ],
+    "voiceOverScript": "You know how sometimes you're feeling down and just need someone to talk to? Well, research shows that strong social connections can actually boost your mood and reduce stress. In fact, spending time with loved ones can increase feelings of happiness, and regular social interactions can even help reduce symptoms of depression. And let's be real, building strong relationships is key to improving overall mental health. So, make sure to prioritize those social connections and nurture them like the precious gems they are.",
+    "uploaded": true
+  },
+  {
+    "title": "The Power of Morning Journaling",
+    "description": "Start your day by writing down your thoughts and feelings.",
+    "tags": [
+      "mindfulness",
+      "self-care",
+      "journaling"
+    ],
+    "points": [
+      "Boosts mental clarity",
+      "Helps set goals",
+      "Frees up mental space"
+    ],
+    "voiceOverScript": "Hey there! Did you know that morning journaling can be a game-changer for your mental health? By writing down your thoughts and feelings, you're able to clear your mind and set intentions for the day. It's like hitting the reset button! And the best part? It only takes a few minutes. So, grab a pen and paper, and start your day off right!",
+    "uploaded": true
+  },
+  {
+    "title": "Fact: Exercise Can Boost Your Mood",
+    "description": "Regular exercise can increase the production of neurotransmitters, such as serotonin and endorphins, which can help lift your mood and reduce stress.",
+    "tags": [
+      "Mental Health",
+      "Exercise",
+      "Mood"
+    ],
+    "points": [
+      "Exercise releases endorphins, which are natural mood-boosters.",
+      "Regular exercise can reduce stress and anxiety.",
+      "Exercise can even help alleviate symptoms of depression."
+    ],
+    "voiceOverScript": "Exercise, it's not just good for your body, it's also great for your mind. Regular exercise can increase the production of neurotransmitters, such as serotonin and endorphins, which can help lift your mood and reduce stress. For example, exercise releases endorphins, which are natural mood-boosters. And if you're feeling stressed or anxious, regular exercise can help reduce those feelings. In fact, exercise can even help alleviate symptoms of depression. So, next time you're feeling down, try getting moving and see how it can boost your mood.",
+    "uploaded": true
+  },
+  {
+    "title": "Boost Your Mood with Morning Sunlight",
+    "description": "Spending time outside in the morning can increase your mood and reduce symptoms of depression.",
+    "tags": [
+      "morning sunlight",
+      "mood",
+      "depression",
+      "wellness"
+    ],
+    "points": [
+      "Morning sunlight exposure helps regulate your circadian rhythms.",
+      "Natural light exposure can boost serotonin levels, improving your mood.",
+      "Spending time outside in the morning can reduce symptoms of depression."
+    ],
+    "voiceOverScript": "Boosting your mood with morning sunlight. You've heard it before, but did you know that spending time outside in the morning can actually increase your mood and reduce symptoms of depression? It's true. Morning sunlight exposure helps regulate your circadian rhythms, and natural light exposure can boost serotonin levels, improving your mood. And if you're struggling with depression, spending time outside in the morning can even reduce symptoms. So, make it a habit to start your day with some morning sunlight. Your mood will thank you.",
+    "uploaded": true
+  },
+  {
+    "title": "Mindfulness Can Improve Relationships",
+    "description": "Practicing mindfulness can help improve relationships by increasing empathy and understanding.",
+    "tags": [
+      "mindfulness",
+      "relationships",
+      "empathy"
+    ],
+    "points": [
+      "Mindfulness helps you stay present and focused.",
+      "Increased empathy leads to better communication.",
+      "Mindful relationships lead to deeper connections."
+    ],
+    "voiceOverScript": "Mindfulness can improve relationships by increasing empathy and understanding. When you're mindful, you stay present and focused, which helps you communicate more effectively. By doing so, you can build deeper connections with others. Try incorporating mindfulness into your daily routine and see the positive impact it can have on your relationships.",
+    "uploaded": true
+  },
+  {
+    "title": "Fact: How to Boost Your Happiness",
+    "description": "Did you know that happiness is a choice?",
+    "tags": [
+      "happiness",
+      "mindfulness",
+      "wellness"
+    ],
+    "points": [
+      "Smile often and mean it.",
+      "Practice gratitude daily.",
+      "Surround yourself with positivity."
+    ],
+    "voiceOverScript": "Happiness is a choice, and you have the power to choose it. Here's a fact: when you smile often and mean it, you release endorphins that boost your mood. Another fact: practicing gratitude daily can rewire your brain to focus on the positive. And did you know that surrounding yourself with positivity can be contagious? By incorporating these habits into your daily routine, you can boost your happiness and live a more fulfilling life.",
+    "uploaded": true
+  },
+  {
+    "title": "Fact: How to Boost Your Happiness",
+    "description": "Did you know that happiness is a choice?",
+    "tags": [
+      "happiness",
+      "mindfulness",
+      "wellness"
+    ],
+    "points": [
+      "Smile often and mean it.",
+      "Practice gratitude daily.",
+      "Surround yourself with positivity."
+    ],
+    "voiceOverScript": "Happiness is a choice, and you have the power to choose it. Here's a fact: when you smile often and mean it, you release endorphins that boost your mood. Another fact: practicing gratitude daily can rewire your brain to focus on the positive. And did you know that surrounding yourself with positivity can be contagious? By incorporating these habits into your daily routine, you can boost your happiness and live a more fulfilling life.",
+    "uploaded": true
+  }
+]
