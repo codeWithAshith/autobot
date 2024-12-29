@@ -173,8 +173,6 @@ export const deletePublicFile = async (title, isScript = false) => {
   }
 };
 
-
-
 export const deleteDriveFile = async (fileId, driveService, fName) => {
   console.log("fileId", fileId);
 

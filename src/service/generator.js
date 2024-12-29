@@ -7,7 +7,9 @@ const { exec } = require("child_process");
 
 const fs = require("fs");
 const path = require("path");
-const puppeteer = require("puppeteer");
+// const puppeteer = require("puppeteer");
+const chromium = require("chrome-aws-lambda");
+const puppeteer = require("puppeteer-core");
 const ffmpeg = require("fluent-ffmpeg");
 
 const GratitudeSchema = z.object({
@@ -17,6 +19,10 @@ const GratitudeSchema = z.object({
   points: z.array(z.string()),
   voiceOverScript: z.string(),
 });
+
+const isLocalEnvironment = () => {
+  return !process.env.VERCEL;
+};
 
 export const generateQuote = async () => {
   const scriptTitles = getScriptTitles();
@@ -63,10 +69,34 @@ export const generateQuote = async () => {
 
 export const generateImage = async (point, fileName) => {
   try {
-    const browser = await puppeteer.launch({
-      headless: false,
-      defaultViewport: null,
-    });
+    let browser;
+
+    if (isLocalEnvironment()) {
+      console.log("Running in Local Environment");
+      browser = await puppeteer.launch({
+        headless: true,
+        args: ["--no-sandbox", "--disable-setuid-sandbox"],
+      });
+    } else {
+      console.log("Running in Vercel Environment (Production)");
+      browser = await puppeteer.launch({
+        headless: true,
+        args: chromium.args,
+        executablePath: await chromium.executablePath,
+        defaultViewport: chromium.defaultViewport,
+      });
+    }
+
+    // const browser = await puppeteer.launch({
+    //   headless: false,
+    //   defaultViewport: null,
+    // });
+
+    // const browser = await puppeteer.launch({
+    //   args: chromium.args,
+    //   executablePath: await chromium.executablePath,
+    //   headless: chromium.headless,
+    // });
 
     const page = await browser.newPage();
     await page.goto("https://replicate.com", {
@@ -159,10 +189,23 @@ export const generateImage = async (point, fileName) => {
 };
 
 export const generateVoiceOver = async (voiceOver, fileName) => {
-  const browser = await puppeteer.launch({
-    headless: false,
-    defaultViewport: null,
-  });
+  let browser;
+
+  if (isLocalEnvironment()) {
+    console.log("Running in Local Environment");
+    browser = await puppeteer.launch({
+      headless: true,
+      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    });
+  } else {
+    console.log("Running in Vercel Environment (Production)");
+    browser = await puppeteer.launch({
+      headless: true,
+      args: chromium.args,
+      executablePath: await chromium.executablePath,
+      defaultViewport: chromium.defaultViewport,
+    });
+  }
 
   const page = await browser.newPage();
   await page.goto("https://replicate.com", {
