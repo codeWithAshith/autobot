@@ -8,7 +8,7 @@ const { exec } = require("child_process");
 const fs = require("fs");
 const path = require("path");
 // const puppeteer = require("puppeteer");
-const chromium = require("chrome-aws-lambda");
+const chromium = require("@sparticuz/chromium");
 const puppeteer = require("puppeteer-core");
 const ffmpeg = require("fluent-ffmpeg");
 
@@ -80,10 +80,11 @@ export const generateImage = async (point, fileName) => {
     } else {
       console.log("Running in Vercel Environment (Production)");
       browser = await puppeteer.launch({
-        headless: true,
         args: chromium.args,
-        executablePath: await chromium.executablePath,
         defaultViewport: chromium.defaultViewport,
+        executablePath: await chromium.executablePath(),
+        headless: chromium.headless,
+        ignoreHTTPSErrors: true,
       });
     }
 
@@ -200,10 +201,11 @@ export const generateVoiceOver = async (voiceOver, fileName) => {
   } else {
     console.log("Running in Vercel Environment (Production)");
     browser = await puppeteer.launch({
-      headless: true,
       args: chromium.args,
-      executablePath: await chromium.executablePath,
       defaultViewport: chromium.defaultViewport,
+      executablePath: await chromium.executablePath(),
+      headless: chromium.headless,
+      ignoreHTTPSErrors: true,
     });
   }
 
