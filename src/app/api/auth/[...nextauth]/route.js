@@ -1,7 +1,7 @@
 import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 
-import oAuthData from "../../../../../oauth.json";
+// import oAuthData from "../../../../../oauth.json";
 
 const handler = NextAuth({
   session: {
