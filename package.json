@@ -16,6 +16,7 @@
     "@langchain/core": "^0.2.31",
     "@langchain/groq": "^0.0.17",
     "@langchain/ollama": "^0.0.4",
+    "@sparticuz/chromium": "^131.0.1",
     "@sparticuz/chromium-min": "^131.0.1",
     "ffmpeg-static": "^5.2.0",
     "fluent-ffmpeg": "^2.1.3",
