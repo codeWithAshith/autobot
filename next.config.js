@@ -6,11 +6,11 @@ module.exports = {
         loader: 'ignore-loader',
       });
   
-      // If you are using Puppeteer or chrome-aws-lambda, ensure Webpack doesn't process those files
-      config.resolve.alias = {
-        ...config.resolve.alias,
-        'chrome-aws-lambda': require.resolve('chrome-aws-lambda'),
-      };
+      // // If you are using Puppeteer or chrome-aws-lambda, ensure Webpack doesn't process those files
+      // config.resolve.alias = {
+      //   ...config.resolve.alias,
+      //   'chrome-aws-lambda': require.resolve('chrome-aws-lambda'),
+      // };
   
       return config;
     },
