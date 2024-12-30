@@ -7,9 +7,9 @@ const { exec } = require("child_process");
 
 const fs = require("fs");
 const path = require("path");
-// const puppeteer = require("puppeteer");
+const puppeteer = require("puppeteer");
 const chromium = require("@sparticuz/chromium");
-const puppeteer = require("puppeteer-core");
+const puppeteerCore = require("puppeteer-core");
 const ffmpeg = require("fluent-ffmpeg");
 
 const GratitudeSchema = z.object({
@@ -79,7 +79,7 @@ export const generateImage = async (point, fileName) => {
       });
     } else {
       console.log("Running in Vercel Environment (Production)");
-      browser = await puppeteer.launch({
+      browser = await puppeteerCore.launch({
         args: chromium.args,
         defaultViewport: chromium.defaultViewport,
         executablePath: await chromium.executablePath(),
@@ -200,7 +200,7 @@ export const generateVoiceOver = async (voiceOver, fileName) => {
     });
   } else {
     console.log("Running in Vercel Environment (Production)");
-    browser = await puppeteer.launch({
+    browser = await puppeteerCore.launch({
       args: chromium.args,
       defaultViewport: chromium.defaultViewport,
       executablePath: await chromium.executablePath(),

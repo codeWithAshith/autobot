@@ -25,6 +25,7 @@
     "next-auth": "^4.24.7",
     "next-video": "^1.1.4",
     "node-fetch": "^3.3.2",
+    "puppeteer": "^23.11.1",
     "puppeteer-core": "^10.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
